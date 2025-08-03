@@ -68,11 +68,11 @@ streamlit run outputrun.py
 
 ```mermaid
 flowchart TD
-    A[User Inputs via Streamlit UI] --> B[Label Encoders (State, District, Crop, Season)]
+    A[User Inputs via Streamlit UI] --> B[Label Encoders<br>State / District / Crop / Season]
     B --> C[Feature Vector Creation]
-    C --> D[Trained Random Forest Model (rf_model.pkl)]
+    C --> D[Random Forest Model]
     D --> E[Predicted Production Output]
-    E --> F[Display on Streamlit Interface]
+    E --> F[Display on Streamlit UI]
 ```
 
 ## 📝 References
