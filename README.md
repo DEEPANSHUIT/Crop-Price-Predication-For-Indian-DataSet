@@ -1,1 +1,1 @@
-# Crop-Price-Predication-For-Indian-DataSet
+# Crop-Price-Prediction-For-Indian-DataSet
